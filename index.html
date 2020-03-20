@@ -7,138 +7,97 @@
   <link rel="stylesheet" href="css/style.css">
   <script src="https://kit.fontawesome.com/0abf59ec8d.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-  <section class="container">
+  <section class="map">
     <img src="../images/map.png" alt="map">
     <div class="header">
       <h1>Washington & State</h1>
     </div>
+  </section>
+
+  <section class="eastbound">
     <div class="direction">
       <h1>Eastbound</h1>
     </div>
-    <div class="content">
-      <div class="number-east">
-        <h1>60</h1>
-      </div>
-      <div class="refresh">
-        <i class="fas fa-retweet fa-2x"></i>
-        <div class="time">
-          <h3>Every 20m</h3>
-        </div>
-      </div>
-      <div class="stop">
-        <h2>Randolph/Harbor</h2>
-      </div>
-      <div class="number-east">
-        <h1>124</h1>
-      </div>
-      <div class="refresh">
-        <i class="fas fa-retweet fa-2x"></i>
-        <div class="time">
-          <h3>Every 10m</h3>
-        </div>
-      </div>
-      <div class="stop">
-        <h2>Navy Pier</h2>
-      </div>
-    </div>
-      <div class="content">
-    </div>
+
+    <ul class="content">
+      <li class="refresh"><i class="fas fa-retweet fa-2x"></i><h2>Every 20m</h2></li>
+      <li class="number-east">60</li>
+      <li class="stop">Randolph/Harbor</li>
+    </ul>
+
+    <ul class="content">
+      <li class="refresh"><i class="fas fa-retweet fa-2x"></i><h2>Every 10m</h2></li>
+      <li class="number-east">124</li>
+      <li class="stop">Navy Pier</li>
+    </ul>
+  </section>
+
+  <section class="northbound">
     <div class="direction">
       <h1>Northbound</h1>
     </div>
-    <div class="content">
-    <div class="number-north">
-      <h1>151</h1>
-    </div>
-    <div class="refresh">
-      <i class="fas fa-retweet fa-2x"></i>
-      <div class="time">
-        <h3>Every 16m</h3>
-      </div>
-    </div>
-    <div class="stop">
-      <h2>Devon/Clark</h2>
-    </div>
-    </div>
+
+    <ul class="content">
+      <li class="refresh"><i class="fas fa-retweet fa-2x"></i><h2>Every 16m</h2></li>
+      <li class="number-north">151</li>
+      <li class="stop">Devon/Clark</li>
+    </ul>
+  </section>
+
+  <section class="southbound">
     <div class="direction">
       <h1>Southbound</h1>
     </div>
-    <div class="content">
-    <div class="number-south">
-      <h1>J14</h1>
-    </div>
-    <div class="refresh">
-      <i class="fas fa-retweet fa-2x"></i>
-      <div class="time">
-        <h3>Every 15m</h3>
-      </div>
-    </div>
-    <div class="stop">
-      <h2>103rd/Stony Island</h2>
-    </div>
-    <div class="number-south">
-      <h1>124</h1>
-    </div>
-    <div class="refresh">
-      <i class="fas fa-retweet fa-2x"></i>
-      <div class="time">
-        <h3>Every 10m</h3>
-      </div>
-    </div>
-    <div class="stop">
-      <h2>Navy Pier</h2>
-    </div>
-    </div>
+
+    <ul class="content">
+      <li class="refresh"><i class="fas fa-retweet fa-2x"></i><h2>Every 15m</h2></li>
+      <li class="number-south">J14</li>
+      <li class="stop">103rd/Stony Island</li>
+    </ul>
+
+    <ul class="content">
+      <li class="refresh"><i class="fas fa-retweet fa-2x"></i><h2>Every 10m</h2></li>
+      <li class="number-south">124</li>
+      <li class="stop">Navy Pier</li>
+    </ul>
+  </section>
+
+  <section class="reroute">
     <div class="direction">
       <h1>Reroute</h1>
     </div>
-    <div class="content">
-    <div class="number-reroute">
-      <h1>6x</h1>
-    </div>
-    <div class="refresh-reroute">
-      <i class="fas fa-retweet fa-2x"></i>
-        <div class="time-rr">
-         <h3>N/A</h3>
-        </div>
-    </div>
-    <div class="stop">
-      <h2>Jackson Park Exp.</h2>
-    </div>
-    </div>
+
+    <ul class="content">
+      <li class="refresh-reroute"><i class="fas fa-retweet fa-2x"></i><h2>N/A</h2></li>
+      <li class="number-reroute">6x</li>
+      <li class="stop">Jackson Park Exp.</li>
+    </ul>
+  </section>
+
+  <section class="outofservice">
     <div class="direction">
       <h1>Out of Service</h1>
     </div>
-    <div class="content">
-    <div class="number-null">
-      <h1>4</h1>
-    </div>
-    <div class="time-null">
-     <h3>Resumes 12:10am</h3>
-    </div>
-    <div class="stop-null">
-      <h2>Cottage Grove</h2>
-    </div>
-    <div class="number-null">
-      <h1>20</h1>
-    </div>
-    <div class="time-null">
-     <h3>Resumes 12:10am</h3>
-    </div>
-    <div class="stop-null">
-      <h2>Madison</h2>
-    </div>
-    <div class="number-null">
-      <h1>157</h1>
-    </div>
-    <div class="time-null">
-     <h3>Resumes 6:00am</h3>
-    </div>
-    <div class="stop-null">
-      <h2>Streeterville/Taylor</h2>
-    </div>
-  </div>
+
+    <ul class="content">
+      <li class="time-null">Resumes 12:10am</li>
+      <li class="number-null">4</li>
+      <li class="stop-null">Cottage Grove</li>
+    </ul>
+
+    <ul class="content">
+      <li class="time-null">Resumes 12:10am</li>
+      <li class="number-null">20</li>
+      <li class="stop-null">Madison</li>
+    </ul>
+
+    <ul class="content">
+      <li class="time-null">Resumes 6:00am</li>
+      <li class="number-null">157</li>
+      <li class="stop-null">Streeterville/Taylor</li>
+    </ul>
   </section>
   </body>
 </html>
