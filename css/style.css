@@ -199,6 +199,7 @@ img {
   height: 69px;
   width: 30%;
   text-align: center;
+  font-weight: lighter;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
 }
